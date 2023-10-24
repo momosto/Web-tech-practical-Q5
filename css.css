@@ -1,0 +1,78 @@
+/* Example styles for the Online Book Store */
+
+/* Header */
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  header nav img {
+    height: 40px;
+    margin-right: 20px;
+  }
+  
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-section .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Featured Section */
+  .featured-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .featured-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
